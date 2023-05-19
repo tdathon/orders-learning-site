@@ -1,0 +1,66 @@
+#mainbody{
+    margin:auto;
+    margin-top: 2rem;
+    width: 30rem;
+    background-color: rgb(229, 229, 229);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    display:grid;
+    grid-template-columns: 15rem 15rem;
+    margin-bottom:2rem;
+}
+
+.textbox{
+    margin: auto;
+    width: 12rem;
+    margin-bottom: 1rem;
+    
+}
+
+.label{
+    margin:auto;
+    margin-bottom:1rem;
+}
+
+#button{
+    margin-top: 1rem;
+    width:30rem;
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    font-size: large;
+}
+
+.errortext{
+    color:rgb(255, 58, 58);
+    font-size: small;
+    margin-top:0rem;
+    text-align: center;
+}
+
+.loginbutton{
+    width: 11rem;
+    margin:auto;
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    font-size: small;
+    background-color: rgb(191, 191, 191);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    text-decoration: none;
+    color:black;
+}
+
+.loginbutton a{
+    text-decoration: none;
+    color:black;
+}
+
+.loginbutton:hover{
+    background-color: rgb(95, 95, 95);
+    color: rgb(233, 233, 233);
+}

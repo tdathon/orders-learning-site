@@ -1,0 +1,46 @@
+#ordersbox{
+    display: grid;
+    grid-template-columns: 3rem 20rem 10rem 10rem 7rem;
+    padding: 1rem;
+    margin:auto;
+    width: 50rem;
+    background-color: rgb(229, 229, 229);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.topbox{
+    text-align: center;
+    background-color: rgb(191, 191, 191);
+    padding-top: 0.25rem;
+    border: 1.5px solid black;
+}
+.idbox{
+    border-color: black;
+    text-align: center;
+    border-width: thick;
+    padding-bottom: 0.5rem;
+    border: 1.5px solid black;
+    border-left: 2px solid black;
+    text-decoration: none;
+}
+
+.idbox a{
+    text-decoration: none;
+}
+
+.generic{
+    border: 1.5px solid black;
+    padding-bottom: 0.5rem;
+}
+
+.words{
+    border: 1.5px solid black;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.paginate{
+    margin-top:6rem;
+    padding: 4rem;
+}

@@ -1,0 +1,12 @@
+#mainbody{
+    margin:auto;
+    width: 60rem;
+
+    background-color: rgb(229, 229, 229);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+#mainbody p{
+    padding: 2rem;
+    font-size: large;
+}
